@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 
 export default function PaymentHubPage() {
@@ -12,7 +11,6 @@ export default function PaymentHubPage() {
   const paymentMethods = [
     "Stripe",
     "PayPal",
-    "Checkout.com",
     "CIB",
     "Edahabia",
     "BaridiMob",
